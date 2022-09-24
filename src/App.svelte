@@ -1,5 +1,5 @@
 <script>
-
+  import Character from "./lib/Character.svelte";
   let characters = [];
   let page = 1;
 
@@ -30,10 +30,6 @@
   </div>
 
   {#each characters as character}
-    <div>
-      <img src={character.image} alt={character.name}>
-      <h2>{character.name}</h2>
-      <h3>{character.species}</h3>
-    </div>
+    <Character characterDataFromRequest={character}/>
   {/each}
 </main>
