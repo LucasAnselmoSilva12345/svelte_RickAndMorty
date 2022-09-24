@@ -22,6 +22,14 @@ In this project, the following technologies were used:
 
 - [API - Rick and Morty](https://rickandmortyapi.com/)
 
+## Deploy
+
+- [Github Pages](https://pages.github.com/)
+
+## Online application
+
+- [https://lucasanselmosilva12345.github.io/svelte_RickAndMorty/](https://lucasanselmosilva12345.github.io/svelte_RickAndMorty/)
+
 ## How to execute this project
 
 **To run the application, be sure you have [Git](https://git-scm.com/) installed on your machine**.
